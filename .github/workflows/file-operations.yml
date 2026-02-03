@@ -17,7 +17,7 @@ jobs:
       run: echo "This file was created by CI pipeline" > created_by_ci.txt
 
     - name: Show created filw
-      run: cat created_by_cat.txt\
+      run: cat created_by_ci.txt
 
     - name: Create directory strucutre
       run: |
