@@ -14,7 +14,7 @@ jobs:
         run: |
           echo "console.log('Test 1 passed');" > test1.js
           echo "console.log('Test 2 passed');" > test2.js
-          echo "console.log('Test 3 passed')'" > test3.js
+          echo "console.log('Test 3 passed');" > test3.js
 
       - name: Run JavaScript test
         run: |
@@ -24,7 +24,7 @@ jobs:
 
       - name: Create test summary
         run: |
-          echo "## Test Results" > test.results.md
+          echo "## Test Results" > test_results.md
           echo "- Test 1: ✅ PASSED" >> test_results.md
           echo "- Test 2: ✅ PASSES" >> test_results.md
           echo "- Test 3: ✅ PASSED" >> test_results.md 
