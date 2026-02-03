@@ -45,7 +45,7 @@ jobs:
           echo "Running test..."
           echo "Test 1: Checking file structure"
           ls -la
-          echo "Test 2: Checking build directory:
+          echo "Test 2: Checking build directory:"
           ls -la build/
           echo "All tests passed!"
 
