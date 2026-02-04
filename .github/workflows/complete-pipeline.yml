@@ -42,7 +42,7 @@ jobs:
 
       - name: Run tests
         run: |
-          echo "Running test..."
+          echo "Running tests..."
           echo "Test 1: Checking file structure"
           ls -la
           echo "Test 2: Checking build directory:"
